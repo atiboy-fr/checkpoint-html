@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <style>
+      ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li a:hover {
+  background-color: green;
+}
+</style>
+    <link rel="stylesheet" href="check.css">
+
+</head>
+<body>
+    <header>
+        <!--created a header-->
+        <div>
+            <h1 style="font-size: 70px;text-align: center;">MY PORTFOLIO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                  </ul>
+            </nav>
+
+        </div>
+    </header>
+    <!--closed the header tag-->
+    <main>
+      <!--created the main section-->
+        <section>
+            <div class="arrange">
+              <h2 class="bigger">Our Services</h2>
+              <!--added four images-->
+              <img src="services.webp" alt="services" height="300px" width="300px"/>
+              <img src="pexels-photo-12662854.jpeg" alt="services" height="300px" width="300px"/>
+              <img src="pexels-photo-2102416.webp" alt="services" height="300px" width="300px"/>
+              <img src="free-photo-of-open-laptop-web-design-development-on-bed.jpeg" alt="services" height="300px" width="300px"/>
+            </div>
+        </section><br><br>
+        <section>
+          <div class="arrange">
+            <h2 class="bigger">News</h2>
+            <!--added a video-->
+            <video width="400px" height="320px" controls class="para">
+              <source src="paramode.mp4" type="video/mp4">
+            </video>
+          </div>
+        </section>
+    </main>
+    <footer class="foot">
+      <div class=" box change"><br><br>
+        <form class="change">
+          <label for="firstname" class="change">Firstname:</label>
+          <input type="text" name="firstname" placeholder="input your first name" class="change"/><br><br>
+          <label for="lastname" class="change">Lastname</label>
+          <input type="text" name="lastname" placeholder="input your lastname" class="change"/><br><br>
+          <label for="password" class="change">Password:</label>
+          <input type="password" name="password" class="change"/><br><br>
+          <input type="submit" value="Login">
+        </form>
+
+
+      </div>
+    </footer>
+</body>
+</html>

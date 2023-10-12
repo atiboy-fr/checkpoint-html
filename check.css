@@ -1,0 +1,8 @@
+* {background-color: rgb(225, 0, 255);}
+.arrange {text-align: center;}
+.bigger {color: aqua;font-size: 30px;}
+.para {border: 3px solid white;}
+.foot {border-top: 3px double black;}
+.box {margin-top: 20px;text-align: center;border: 2px solid white;height: 300px;
+width: 450px;}
+.change {background-color: aqua;border-radius: 40px;}
